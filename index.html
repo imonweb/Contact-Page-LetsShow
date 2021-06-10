@@ -4,10 +4,81 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
   <title>Contact Page - Lets Show</title>
 </head>
 <body>
-  
+  <div class="main__container">
+    <div class="left__container"></div>
+    <div class="right__container"></div>
+    
+    <div class="content__container">
+       
+      <div class="inner__content">
+         <div class="left__content">
+          <div class="contact__info">
+            <div class="info__content">
+              <h2 class="heading">Contact Info</h2>
+              <div class="content__box">
+                <span> <i class="fas fa-map-marker-alt"></i></span>
+                <span>10 Downing St. London</span>
+              </div>
+              <div class="content__box">
+                <span> <i class="fas fa-envelope-open-text"></i></span>
+                <span>minister@gov.uk</span>
+              </div>
+              <div class="content__box">
+                <span> <i class="fas fa-phone"></i></span>
+                <span>+44 12345567</span>
+              </div>
+              <div class="footer__icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="right__content">
+          <div class="inner__form">
+            <form action="">
+              <h2 class="form__heading">Send a Message</h2>
+              <div class="first__row">
+                <div class="input__box">
+                  <input type="text" class="input__field">
+                  <label for="First Name">First Name</label>
+                </div>
+                <div class="input__box">
+                  <input type="text" class="input__field">
+                  <label for="Last Name">Last Name</label>
+                </div>
+              </div> <!-- first-row -->
+              <div class="second__row">
+                <div class="input__box">
+                  <input type="text" class="input__field">
+                  <label for="Email">Email</label>
+                </div>
+                <div class="input__box">
+                  <input type="tel" class="input__field">
+                  <label for="Mobile Number">Mobile Number</label>
+                </div>
+              </div> <!-- third-row -->
+              <div class="third__row">
+                <div class="input__box">
+                  <textarea name="" id="" cols="30" rows="10" class="text__field"></textarea>
+                  <label for="textarea">Write your message here</label>
+                </div>
+                
+              </div> <!-- third-row -->
+              <input type="submit" class="btn" value="Send">
+            </form>
+          </div>
+         </div>
+       </div>
+
+    </div> <!-- content-container -->
+  </div> <!-- main-container -->
 </body>
 </html>
